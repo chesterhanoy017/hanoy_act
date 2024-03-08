@@ -1,0 +1,72 @@
+body{  
+    background-color: rgb(204, 204, 234);
+    background: linear-gradient(to top, rgb(0,0,0,0.5)50%, rgb(0,0,0,0.5)50%), url(image/we.jpg);   
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 400px;
+    margin-top: 300px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    width: 250px;
+    height: 300px;
+    background: transparent;
+    position: absolute;
+    border: 2px solid yellow;   
+    border-radius: 10px;
+    padding: 25px;
+}
+
+h1{
+    color: yellow;
+    text-align: center;
+    border: 1px solid yellow;
+    border-radius: 10px;
+}
+
+h1:hover{
+    color: white;
+}
+
+input{
+    width: 250px;
+    height: 50px;
+    color: white;
+    background: transparent;
+    border: 2px solid yellow;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.btn{
+    width: 240px;
+    height: 40px;
+    background: yellow;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;   
+    transition: .4s ease;
+}
+
+.btn:hover{
+    background: white;  
+}
+
+.btn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
